@@ -5,7 +5,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center px-6 py-12 space-y-20 font-sans bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100">
       <Header />
       {/* ===== HERO / ABOUT ===== */}
-      <section id="about" className="text-center max-w-3xl" className="text-center max-w-3xl scroll-mt-24">
+      <section id="about" className="text-center max-w-3xl scroll-mt-24">
         <h1 className="text-5xl font-bold mb-4">Utkarsh Saboo 👋</h1>
         <p className="text-gray-600 mb-6">
           Machine Learning Engineer passionate about building scalable AI systems that bridge finance, data, and insight.
