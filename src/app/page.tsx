@@ -355,17 +355,83 @@ export default function Home() {
       </section>
 
       {/* ===== CONTACT ===== */}
-      <section id="contact" className="text-center w-full max-w-2xl pb-10 scroll-mt-24">
+      <section id="contact" className="w-full max-w-2xl pb-10 scroll-mt-24 mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-4">Get in Touch</h2>
-        <p className="text-gray-600 mb-6">
-          Always open to collaborations, conversations, or opportunities in ML and Data Engineering.
+
+        <p className="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+          Always open to collaborations, conversations, or opportunities in ML and AI.
         </p>
-        <a
-          href="mailto:utkarsh@example.com"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
-        >
-          Say Hello
-        </a>
+
+        <div className="flex items-center justify-center gap-6">
+
+          {/* Email */}
+          <a
+            href="mailto:utkarshsaboo45@gmail.com"
+            className="
+              flex items-center gap-2 
+              text-gray-700 dark:text-gray-200 
+              hover:text-blue-600 dark:hover:text-blue-400 
+              transition
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16 12H8m8 0l4 4m-4-4l4-4m-8 8l-4-4m4 4l-4-4" />
+            </svg>
+            Email
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/utkarshsaboo45/"
+            target="_blank"
+            className="
+              flex items-center gap-2 
+              text-gray-700 dark:text-gray-200 
+              hover:text-blue-600 dark:hover:text-blue-400 
+              transition
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zM8 8h3.6v2.2h.05c.5-1 1.75-2.2 3.6-2.2 3.85 0 4.55 2.5 4.55 5.7V24h-4V15.5c0-2.05-.04-4.7-3-4.7s-3.45 2.25-3.45 4.55V24h-4V8z" />
+            </svg>
+            LinkedIn
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/utkarshsaboo45"
+            target="_blank"
+            className="
+              flex items-center gap-2 
+              text-gray-700 dark:text-gray-200 
+              hover:text-blue-600 dark:hover:text-blue-400 
+              transition
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 008 10.96c.58.1.79-.25.79-.56v-2.1c-3.26.71-3.95-1.57-3.95-1.57-.53-1.36-1.3-1.72-1.3-1.72-1.06-.73.08-.72.08-.72 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.26 3.4.96.11-.76.41-1.26.74-1.55-2.6-.3-5.34-1.3-5.34-5.8 0-1.28.46-2.33 1.2-3.15-.12-.3-.52-1.52.11-3.16 0 0 .98-.31 3.2 1.2a11.2 11.2 0 015.82 0c2.22-1.51 3.2-1.2 3.2-1.2.63 1.64.23 2.86.12 3.16.75.82 1.2 1.87 1.2 3.15 0 4.51-2.75 5.5-5.37 5.79.42.36.79 1.06.79 2.15v3.18c0 .31.2.67.79.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z" />
+            </svg>
+            GitHub
+          </a>
+
+        </div>
       </section>
     </main>
   );
